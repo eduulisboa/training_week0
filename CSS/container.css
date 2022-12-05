@@ -1,0 +1,45 @@
+.restaurant-name {
+    justify-content: center;
+}
+
+#menu-container > div {
+    display: block;
+    background-color: #ffcc5c;
+    border: 5px solid #ffcc5c;
+    border-bottom: 1px solid;
+    font-size: 2em;
+}
+
+#container > div {
+    display: inline-flex;
+    padding: 10px;
+    font-size: 2em;
+    color: #000000;
+  }
+
+
+#container > div .coxinha {
+    flex: 1;
+    border: 5px solid;
+    width: 300px;
+    height: 200px;
+    
+}
+#container > div .strogonoff {
+    flex: 1;
+    border: 5px solid;
+    width: 300px;
+    height: 200px;
+}
+#container > div .brigadeiro {
+    flex: 1;
+    border: 5px solid;
+    width: 300px;
+    height: 200px;
+}
+#container > div .cerveja {
+    flex: 1;
+    border: 5px solid;
+    width: 300px;
+    height: 200px;
+}
